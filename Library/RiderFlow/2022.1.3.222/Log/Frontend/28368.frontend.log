@@ -1,0 +1,28 @@
+16:42:57.045 |I| Launcher                      | :1                 | Checking if build hasn't expired.
+16:42:57.051 |I| Launcher                      | :1                 | Starting RiderFlow frontend
+16:42:57.059 |V| ServerSocket-UnityServer-Sender| :1                 | PAUSE ('Disconnected') :: state=Initialized
+16:42:57.080 |V| Server                        | :1                 | ServerSocket-UnityServer : started, port: 60823
+16:42:57.081 |V| Server                        | ServerSocket-UnityServer-Receiver:26 | ServerSocket-UnityServer : accepting, port: 60823
+16:43:00.091 |V| RiderFlowAnalytics            | :1                 | Didn't find 'analytics' in /Users/mykytatishkin/.config/RiderFlow. Creating new 'analytics' file.
+16:43:00.092 |V| RiderFlowAnalytics            | :1                 | Generated new uuid. Saved it to 'analytics' in /Users/mykytatishkin/.config/RiderFlow.
+16:43:00.093 |I| Launcher                      | :1                 | Creating Root ScriptableObject
+16:43:00.093 |I| Launcher                      | :1                 | Subscribing for events
+16:43:12.110 |I| AssetPathService              | :1                 | Started building search cache
+16:43:12.117 |I| AssetPathService              | :1                 | Finished building search cache
+16:43:12.310 |V| Launcher                      | :1                 | Ready!
+16:48:18.215 |I| Launcher                      | :1                 | Start running backend
+16:48:53.211 |V| Server                        | ServerSocket-UnityServer-Receiver:26 | ServerSocket-UnityServer : accepted
+16:48:53.220 |V| Server                        | ServerSocket-UnityServer-Receiver:26 | ServerSocket-UnityServer : connected
+16:48:53.265 |V| ServerSocket-UnityServer-Sender| ServerSocket-UnityServer-Receiver:26 | RESUME :: state=AsyncProcessing
+22:25:04.689 |V| Server                        | ServerSocket-UnityServer-Receiver:26 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer Connection reset by peer
+22:25:04.696 |V| Server                        | ServerSocket-UnityServer-Receiver:26 | ServerSocket-UnityServer: Total traffic: sent 158254, received 97517
+22:25:04.696 |V| ServerSocket-UnityServer-Sender| ServerSocket-UnityServer-Receiver:26 | PAUSE ('Disconnected') :: state=AsyncProcessing
+22:25:04.701 |V| Server                        | ServerSocket-UnityServer-Receiver:26 | ServerSocket-UnityServer : accepting, port: 60823
+22:25:06.579 |V| Base                          | :1                 | closing server socket
+22:25:06.579 |V| Server                        | ServerSocket-UnityServer-Receiver:26 | ServerSocket-UnityServer: SocketException with message interrupted
+22:25:06.579 |V| Server                        | ServerSocket-UnityServer-Receiver:26 | ServerSocket-UnityServer: terminated.
+22:25:06.580 |V| Server                        | :1                 | ServerSocket-UnityServer: start termination of lifetime
+22:25:06.582 |V| Server                        | :1                 | ServerSocket-UnityServer: send buffer stopped, success: True
+22:25:06.582 |V| Server                        | :1                 | ServerSocket-UnityServer: closing socket because of lifetime
+22:25:06.582 |V| Server                        | :1                 | ServerSocket-UnityServer: waiting for receiver thread
+22:25:06.582 |V| Server                        | :1                 | ServerSocket-UnityServer: termination finished
