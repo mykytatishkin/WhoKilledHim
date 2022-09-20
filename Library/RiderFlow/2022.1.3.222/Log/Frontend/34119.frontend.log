@@ -1,0 +1,28 @@
+10:26:07.548 |I| Launcher                      | :1                 | Checking if build hasn't expired.
+10:26:07.553 |I| Launcher                      | :1                 | Starting RiderFlow frontend
+10:26:07.560 |V| ServerSocket-UnityServer-Sender| :1                 | PAUSE ('Disconnected') :: state=Initialized
+10:26:07.612 |V| Server                        | :1                 | ServerSocket-UnityServer : started, port: 55046
+10:26:07.612 |V| Server                        | ServerSocket-UnityServer-Receiver:20 | ServerSocket-UnityServer : accepting, port: 55046
+10:26:11.554 |V| RiderFlowAnalytics            | :1                 | Found 'analytics' in /Users/mykytatishkin/.config/RiderFlow. Trying to extract use guid...
+10:26:11.557 |V| RiderFlowAnalytics            | :1                 | Found uuid in 'analytics'.
+10:26:11.558 |I| Launcher                      | :1                 | Creating Root ScriptableObject
+10:26:11.558 |I| Launcher                      | :1                 | Subscribing for events
+10:26:11.566 |I| Launcher                      | :1                 | Start running backend
+10:26:11.775 |I| AssetPathService              | :1                 | Started building search cache
+10:26:11.785 |I| AssetPathService              | :1                 | Finished building search cache
+10:26:12.503 |V| Launcher                      | :1                 | Ready!
+10:26:48.598 |V| Server                        | ServerSocket-UnityServer-Receiver:20 | ServerSocket-UnityServer : accepted
+10:26:48.599 |V| Server                        | ServerSocket-UnityServer-Receiver:20 | ServerSocket-UnityServer : connected
+10:26:48.613 |V| ServerSocket-UnityServer-Sender| ServerSocket-UnityServer-Receiver:20 | RESUME :: state=AsyncProcessing
+10:26:54.807 |V| Server                        | ServerSocket-UnityServer-Receiver:20 | ServerSocket-UnityServer Connection was gracefully shutdown
+10:26:54.808 |V| Server                        | ServerSocket-UnityServer-Receiver:20 | ServerSocket-UnityServer: Total traffic: sent 1126, received 4446
+10:26:54.808 |V| ServerSocket-UnityServer-Sender| ServerSocket-UnityServer-Receiver:20 | PAUSE ('Disconnected') :: state=AsyncProcessing
+10:26:54.811 |V| Server                        | ServerSocket-UnityServer-Receiver:20 | ServerSocket-UnityServer : accepting, port: 55046
+10:26:55.775 |V| Base                          | :1                 | closing server socket
+10:26:55.787 |V| Server                        | :1                 | ServerSocket-UnityServer: start termination of lifetime
+10:26:55.787 |V| Server                        | ServerSocket-UnityServer-Receiver:20 | ServerSocket-UnityServer: SocketException with message interrupted
+10:26:55.787 |V| Server                        | ServerSocket-UnityServer-Receiver:20 | ServerSocket-UnityServer: terminated.
+10:26:55.787 |V| Server                        | :1                 | ServerSocket-UnityServer: send buffer stopped, success: True
+10:26:55.787 |V| Server                        | :1                 | ServerSocket-UnityServer: closing socket because of lifetime
+10:26:55.787 |V| Server                        | :1                 | ServerSocket-UnityServer: waiting for receiver thread
+10:26:55.787 |V| Server                        | :1                 | ServerSocket-UnityServer: termination finished

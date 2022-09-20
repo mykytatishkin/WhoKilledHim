@@ -1,0 +1,48 @@
+﻿10:26:34.796 |I| Core                           | RequestBuilder thread:8        | MsBuild process with Id = 34258
+10:26:34.805 |I| Core                           | RequestBuilder thread:8        | MsBuild location = /Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/MSBuild.dll
+10:26:34.805 |I| Core                           | RequestBuilder thread:8        | 
+10:26:34.806 |I| Core                           | RequestBuilder thread:8        | Start ControllerTask...
+10:26:34.809 |I| Core                           | RequestBuilder thread:8        | Detected version: 16.10
+10:26:34.814 |I| Core                           | RequestBuilder thread:8        | Creating SocketWire with port = 55072
+10:26:34.865 |I| Core                           | RequestBuilder thread:8        | Create protocol...
+10:26:35.027 |I| Core                           | RequestBuilder thread:8        | Create MsBuildModel and advise for new sessions...
+10:26:35.111 |I| Core                           | RequestBuilder thread:8        | Subscribe for changes...
+10:26:35.115 |I| Core                           | RequestBuilder thread:8        | Setup process watchdog...
+10:26:35.119 |I| Core                           | RequestBuilder thread:8        | Run dispatcher...
+10:26:35.121 |I| ProcessWatchdog                | WatchParentPid:34242:12        | Monitoring parent process PID:34242
+10:26:35.253 |I| Core                           | RequestBuilder thread:8        | Get protocol session 'RdProjectModelSession'
+10:26:35.275 |I| Core                           | RequestBuilder thread:8        | Msbuild session 'ProjectModelSessionHost' created
+10:26:35.390 |I| ProjectModel                   | RequestBuilder thread:8        | Reloading 5 project(s) in 1 node(s)...
+10:26:35.460 |I| Build                          | Thread Pool Worker:5           | Build started.
+10:26:36.892 |I| BuildQueue                     | RequestBuilder thread:8        | Build immediately: \Users\mykytatishkin\Documents\GitHub\WhoKilledHim\Assembly-CSharp.csproj
+10:26:36.900 |I| Build                          | RequestBuilder thread:8        | Start build 'Assembly-CSharp.csproj' with 1 target frameworks
+10:26:36.956 |I| Build                          | RequestBuilder thread:8        | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+10:26:36.980 |I| BuildQueue                     | RequestBuilder thread:8        | Build immediately: \Users\mykytatishkin\Documents\GitHub\WhoKilledHim\JetBrains.Frontend.2021.2.csproj
+10:26:36.982 |I| Build                          | RequestBuilder thread:8        | Start build 'JetBrains.Frontend.2021.2.csproj' with 1 target frameworks
+10:26:36.988 |I| Build                          | RequestBuilder thread:8        | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+10:26:36.991 |I| BuildQueue                     | RequestBuilder thread:8        | Build immediately: \Users\mykytatishkin\Documents\GitHub\WhoKilledHim\Assembly-CSharp-Editor-firstpass.csproj
+10:26:36.991 |I| Build                          | RequestBuilder thread:8        | Start build 'Assembly-CSharp-Editor-firstpass.csproj' with 1 target frameworks
+10:26:36.994 |I| Build                          | RequestBuilder thread:8        | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+10:26:37.000 |I| BuildQueue                     | RequestBuilder thread:8        | Build immediately: \Users\mykytatishkin\Documents\GitHub\WhoKilledHim\JetBrains.Frontend.2019.4.csproj
+10:26:37.000 |I| Build                          | RequestBuilder thread:8        | Start build 'JetBrains.Frontend.2019.4.csproj' with 1 target frameworks
+10:26:37.005 |I| Build                          | RequestBuilder thread:8        | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+10:26:37.010 |I| BuildQueue                     | RequestBuilder thread:8        | Build immediately: \Users\mykytatishkin\Documents\GitHub\WhoKilledHim\JetBrains.Frontend.2020.2.csproj
+10:26:37.011 |I| Build                          | RequestBuilder thread:8        | Start build 'JetBrains.Frontend.2020.2.csproj' with 1 target frameworks
+10:26:37.012 |I| Build                          | RequestBuilder thread:8        | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+10:26:37.839 |I| Build                          | Thread Pool Worker:20          | Finish build part [1/1] for project 'Assembly-CSharp.csproj': Success
+10:26:37.840 |I| Build                          | Thread Pool Worker:20          | Finish build project 'Assembly-CSharp.csproj': Success
+10:26:38.065 |I| Build                          | Thread Pool Worker:24          | Finish build part [1/1] for project 'JetBrains.Frontend.2020.2.csproj': Success
+10:26:38.065 |I| Build                          | Thread Pool Worker:24          | Finish build project 'JetBrains.Frontend.2020.2.csproj': Success
+10:26:38.082 |I| Build                          | Thread Pool Worker:19          | Finish build part [1/1] for project 'JetBrains.Frontend.2019.4.csproj': Success
+10:26:38.082 |I| Build                          | Thread Pool Worker:19          | Finish build project 'JetBrains.Frontend.2019.4.csproj': Success
+10:26:38.097 |I| Build                          | Thread Pool Worker:4           | Finish build part [1/1] for project 'Assembly-CSharp-Editor-firstpass.csproj': Success
+10:26:38.097 |I| Build                          | Thread Pool Worker:4           | Finish build project 'Assembly-CSharp-Editor-firstpass.csproj': Success
+10:26:38.196 |I| Build                          | Thread Pool Worker:4           | Finish build part [1/1] for project 'JetBrains.Frontend.2021.2.csproj': Success
+10:26:38.196 |I| Build                          | Thread Pool Worker:4           | Finish build project 'JetBrains.Frontend.2021.2.csproj': Success
+10:26:42.244 |I| ProjectModel                   | RequestBuilder thread:8        | Reloading has finished, statistic: 
+	Total: 6.76 sec
+	Binding: 0.19 sec
+	Evaluation: 1.21 sec
+10:26:42.281 |I| Build                          | Thread Pool Worker:25          | Build succeeded.
+10:26:54.459 |I| Core                           | RequestBuilder thread:8        | Msbuild session 'ProjectModelSessionHost' was terminated
+10:26:54.463 |I| Core                           | RequestBuilder thread:8        | Connection lost, kill msbuild
